@@ -1,6 +1,25 @@
+@keyframes translateUpDown {
+  0%,100% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -30px;
+  }
+}
+
 .App {
   text-align: center;
 }
+.appcss{
+  overflow: hidden;
+  background-image: url(./curvesBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* this line of background-position is put to hide the rough edges of the background vector image (svg)
+   */
+  animation: translateUpDown 5s infinite;
+}
+
 
 .App-logo {
   height: 40vmin;

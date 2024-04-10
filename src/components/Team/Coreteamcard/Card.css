@@ -1,0 +1,96 @@
+.Corecardcss {
+  margin-top: 10px;
+  width: 200px;
+  height: 245px;
+  border: 1px solid white;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.5s;
+  border-radius: 10px;
+  border-color:transparent;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.091);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.Corecardcss:hover {
+  background-size: 5% 5%;
+  background-color: #0407555d;
+  transform: scale(1.02);
+}
+
+.Name {
+  margin: 20px 0px -5px 7px;
+  font-size: 22px;
+  font-weight: bolder;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  transition: color 0.3s;
+}
+
+.cbox {
+  background:linear-gradient(45deg, #000000, #2d1403, #000000, #2d1403, #000000);
+  height: 100px;
+  width: 200px;
+  border-radius: 9px 9px 0px 0px;
+}
+
+.imgbox {
+  margin-top: -48px;
+  position: relative;
+  height: 110px;
+  width: 110px;
+  border-style: solid;
+  border-color: beige;
+  border:1px solid white;
+  border-radius: 50%;
+  transition: border 0.5s, transform 0.5s;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.ccontent {
+  /* margin-top: 45px; */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.5s; /* Added transition */
+}
+
+.Corecardcss:hover .ccontent {
+  transform: translateY(-25px);
+}
+.Corecardcss:hover .imgbox {
+  transform: translateY(-5px);
+  transform: scale(1.2);
+  border: 1px solid rgba(255, 166, 0, 0.584);
+}
+
+.social-icons {
+  display: flex;
+  margin-left: -30px;
+}
+
+.social-icons li {
+  list-style: none;
+  margin: 5px 15px 10px 15px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.Corecardcss:hover .social-icons li {
+  transform: translateY(-10px);
+  opacity: 1;
+  transition:0.3s;
+}
+
+.social-icons li {
+  color: beige;
+  font-size: 35px;
+}

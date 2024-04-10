@@ -1,0 +1,35 @@
+*{
+    color: rgb(255, 255, 255);
+}
+
+.containFoot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px;
+    border-top: 2px solid white;
+    background: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rightitemsFoot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cp-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rightFoot{
+    padding-left: 5px;
+    padding-right:5px;
+}
+@media (max-width:700px){
+    .containFoot{
+        justify-content: center;
+        flex-direction: column;
+    }
+}

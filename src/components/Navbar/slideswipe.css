@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Protest+Revolution&display=swap');
+
+.slideswipe-container {
+    /* background-color: black; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #000000, #0b032d, #000000, #0b032d, #000000);
+    z-index: 1002;
+    position: fixed; 
+    /* this is very important so that it takes as independent div, and not affected by the containnav */
+    border-radius: 5px;
+    top:0;
+    right:0;
+    transition: right 0.3s ease;
+    right: -215px;
+    width: min(100%,200px);
+    height: 100%;
+    box-shadow: -10px 15px 20px rgb(0, 0, 0);
+}
+/* .slide-link {
+    font-size: large;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+} */
+.slide-link-container{
+    position: relative;
+    left: 15px;
+    top:60px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+}
+.slide-link {
+    font-size: large;
+    font-weight: bold;
+    font-size: larger;
+    font-family: "Protest Revolution", sans-serif;    text-decoration: none;
+    position: relative;
+    transition: 0.3s ease-in;
+}
+.slide-link:hover{
+    color:orange;
+}
+.slide-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px; /* Adjust as needed */
+    width: 0; /* Initially set width to 0 */
+    height: 2px; /* Thickness of the underline */
+    background-color: rgba(255, 166, 0, 0.473); /* Color of the underline */
+    transition: width 0.3s ease; /* Smooth transition effect */
+}
+
+.slide-link:hover::after {
+    width: 100%; /* Underline width increasing to 100% on hover */
+}
+.slide-close{
+    height:20px;
+    position: absolute;
+    top: 15px;
+    left:15px;
+    cursor: pointer;
+}
+@media (min-width:800px){
+    .slideswipe-container{
+        display: none;
+    }
+}
+
+.slideswipe-container.open {
+    right: 0;
+}

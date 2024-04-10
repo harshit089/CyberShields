@@ -1,0 +1,21 @@
+.blogreadwrite-button {
+    padding: 15px 40px;
+    width: 100%;
+    background-color: #4caf4f68;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Orbitron", sans-serif;
+}
+
+.blogreadwrite-button:hover {
+    background-color: #a0456f8e;
+}
+
+.blog-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

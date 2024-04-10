@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lilita+One&family=Orbitron:wght@400..900&display=swap');
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-15px); /* Adjust the distance as needed */
+  }
+}
+.Home-container {
+  height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+.Home-design{
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+  .Logo-div,
+  .main-title,
+  .bline,
+  .Home-button
+   {
+    text-align: center;
+  }
+
+.main-title{
+    color: white;
+    font-size: 45px;
+    /* font-family: monospace; */
+    font-family: "Orbitron", sans-serif;
+}
+
+.main-title-container {
+  margin-bottom: 10px;
+}
+
+.bline{
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.772);
+    font-size: 20px;
+    animation: blink 5s infinite;
+    font-family: monospace;
+}
+
+
+/* smooth tansitions */
+.biglogo,
+.main-title,
+.bline{
+  transition: 0.3s ease;
+}
+
+/* .github-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    margin:10px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+.discord-button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin:10px;
+
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    border-color: white;
+    border-radius: 0.5px;
+  }
+
+  .github-button:hover,
+  .discord-button:hover{
+    background-color: aqua;
+  } */
+
+.github-button,
+.discord-button {
+    padding: 12px 40px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-color: white;
+    font-weight: bold;
+    border:1.5px solid white;
+}
+
+.github-button {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.discord-button {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+.discord-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transform: scale(1.05);
+    border-color:rgb(255, 0, 0);
+}
+.github-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: scale(1.05);
+    border-color:rgb(255, 0, 0);
+}
+
+.biglogo{
+  height: 275px;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.772));
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.biglogo:hover {
+  transform: scale(0.95);
+}
+
+
+
+@media (max-width:650px){
+  .main-title{
+    color: white;
+    font-size: 30px;
+}
+.bline{
+  /* margin-bottom: 2%; */
+  color: rgb(100, 98, 98);
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.biglogo {
+  height:175px;
+}
+
+  .github-button,
+  .discord-button {
+      padding: 6px 20px;
+      font-size: 10px;
+  }
+
+} 
+@media (max-height:425px){
+  .main-title{
+    color: white;
+    font-size: 20px;
+}
+.bline{
+  /* margin-bottom: 2%; */
+  color: rgb(100, 98, 98);
+  font-size: 9px;
+  margin-bottom: 10px;
+}
+
+.biglogo {
+  height:150px;
+}
+
+  .github-button,
+  .discord-button {
+      padding: 4px 16px;
+      font-size: 7px;
+  }
+}
+  /* .gitarrow{
+    height: 12px; 
+  } */
+  .Logo-div {
+    text-align: center;
+    position: relative;
+    animation: float 5s ease-in-out infinite;
+  }

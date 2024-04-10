@@ -1,0 +1,38 @@
+.Activities-head {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom:30px;
+    font-family: "Kaushan Script", cursive;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.upper-row,
+.lower-row {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap:40px;
+}
+.upper-row {
+    /* margin: 0 auto 40px auto; */
+    width:100%;
+    max-width: 1535px;
+    margin-bottom: 40px;
+}
+.lower-row {
+    width:1130px;
+}
+
+.low-align,.upper-align {
+    display: flex;
+    justify-content: center;
+}
+
+.Activities-container {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+}

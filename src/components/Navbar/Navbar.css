@@ -1,0 +1,71 @@
+* {
+    color: rgb(255, 255, 255);
+}
+
+.containnav {
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content:space-between;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.right-items-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right:40px;
+    width:400px;
+}
+.left-items-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    min-width: 150px;
+  }
+  
+.home-text{
+    font-weight:600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.rightitem{
+    text-decoration: solid;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.rightitem:hover{
+    color:orange;
+}
+.home-logo {
+    height: 30px;
+    margin-right: 5px;
+}
+.hamburg{
+    display: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+@media (max-width:800px){
+    .containnav{
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    .right-items-container{
+        display: none;
+    }
+    .hamburg{
+        z-index: 1001;
+        position: fixed;
+        right:10px;
+        display:inherit;
+    }
+}
+/* don't interfere this, I did this only to remove the default padding of the anchor tag, in which I put the home logo, so that logo become a hyper link*/
+.home-logo-anchor{
+    display: flex;
+}

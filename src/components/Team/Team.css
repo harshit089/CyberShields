@@ -1,0 +1,45 @@
+.Team-heading {
+   text-align: center;
+   font-size: 65px;
+   font-family: "Kaushan Script", cursive;
+   text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.Heads-title,
+.CoreTeam-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-style: italic;
+}  
+
+.Head-card-align {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Head-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:900px;
+    gap:40px;
+}
+
+.Core-Team {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto 40px auto;
+    max-width: 1335px;
+    gap: 40px;
+}
+
+.Team-container {
+    margin-top: 35px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}

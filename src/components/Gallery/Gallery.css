@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.Gallery-box {
+        min-width: 1200px;
+        max-width: 1200px;
+        height: 500px;
+        border: 1px solid white;
+        border-radius: 15px;
+        display: inline-block;
+        margin:10px 20px;
+        box-shadow: 0 0 9px rgb(0, 0, 0);
+        transition: 0.3s ease;
+        overflow: hidden;
+}
+.Gallery-box-div {
+    overflow-x: auto;
+    /* text-align: center; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .Gallery-head {
+    margin-top:40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.Gallery-head {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 30px;
+    display: flex;
+    /* font-family: "Orbitron", sans-serif; */
+    /* font-family:monospace; */
+    font-family: "Kaushan Script", cursive;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+  
+
+.Gallery-container {
+    padding-bottom:40px;
+    padding-top:50px;
+}
+.gallery-button-div {
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: 0 20px;
+    background-color: rgba(132, 136, 132, 0.274);
+    overflow: hidden;
+}
+
+.gallery-nextButton,
+.gallery-prevButton {
+    padding: 10px 0;
+    width:100px;
+    color: white;
+    font-size: 100%;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #012e45be;
+    border: none;
+    cursor: pointer;
+}
+
+.gallery-nextButton:hover,
+.gallery-prevButton:hover {
+    background-color: #555;
+}
+
+
+
+@media (max-width:1250px){
+    .Gallery-box {
+        min-width: 1000px;
+        max-width: 1000px;
+        height: 416.6px;
+}
+}
+@media (max-width:1150px){
+    .Gallery-box {
+        min-width: 800px;
+        max-width: 800px;
+        height: 333.3px;
+}
+}
+@media (max-width:845px){
+    .Gallery-box {
+        min-width: 600px;
+        max-width: 600px;
+        height: 250px;
+}
+}
+@media (max-width:645px){
+    .Gallery-box {
+        min-width: 400px;
+        max-width: 400px;
+        height: 166.6px;
+}
+}
+@media (max-width:445px){
+    .Gallery-box {
+        min-width: 300px;
+        max-width: 300px;
+        height: 125px;
+}
+}
+
+.galleryimage{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}

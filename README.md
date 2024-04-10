@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Welcome to the React Website for IITG Cyber Security Module
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello everyone! This is a React website developed for the IITG Cyber Security Module. We welcome and appreciate your contributions to this project. Below are the steps to contribute:
 
-## Available Scripts
+## How to Contribute
 
-In the project directory, you can run:
+1. **Fork the Repository:** Start by forking this repository to your GitHub account. This will create a copy of the project under your account, allowing you to freely make changes without affecting the original repository.
 
-### `npm start`
+2. **Clone the Repository:** Clone the forked repository from your GitHub repository list to your local machine using the `git clone` command.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    ```bash
+    git clone https://github.com/your-username/repository-name.git
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Create a New Branch:** Once cloned, create a new branch to work on your changes. This helps in keeping the main codebase clean and allows for better organization. Use the following command to create a new branch:
 
-### `npm test`
+    ```bash
+    git checkout -b <branch-name>
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Install Dependencies:** Navigate to the cloned repository on your desktop and install the project dependencies using npm.
 
-### `npm run build`
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   You need not worry about the `.gitignore` file; it's already included in the repository. Thus, dependencies won't be pushed along with your changes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **Start Development Server:** Open the development environment by running the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+6. **Make Changes:** Make the necessary changes to the codebase to fix bugs or add new features.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+7. **Commit Changes:** Once you've made your changes, commit them to your branch with a descriptive commit message.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    git add .
+    git commit -m "Your descriptive commit message"
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. **Push Changes:** Push your changes to your forked repository on GitHub.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    git push origin <branch-name>
+    ```
 
-## Learn More
+9. **Create a Pull Request:** Finally, navigate to your forked repository on GitHub, switch to the branch you've just pushed, and create a pull request. Wait for it to be reviewed and merged into the master branch.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Happy Coding! 🚀
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for considering contributing to our project. We appreciate your efforts and look forward to your contributions. Happy coding! 😊
