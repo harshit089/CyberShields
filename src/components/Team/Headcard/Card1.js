@@ -1,5 +1,5 @@
 import "./Card.css";
-import rohan from "./rohan.png";
+import harshit from "./harshit.jpeg";
 
 function Card() {
   return (
@@ -7,7 +7,7 @@ function Card() {
       <div className="content">
         <div className="hbox"></div>
         <div className="imgbox">
-          <img className="img" src={rohan} alt=""></img>
+          <img className="img" src={harshit} alt=""></img>
         </div>
         <div className="Name">Harshit</div>
         <ul class="social-icons">
@@ -17,7 +17,7 @@ function Card() {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/harshit002/" target="_blank">
               <i class="fa fa-linkedin"></i>
             </a>
           </li>

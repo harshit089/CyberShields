@@ -1,5 +1,5 @@
 import "./Card.css";
-import rohan from "./rohan.png";
+import anubh from "./anubh.jpeg";
 
 function Card() {
   return (
@@ -7,9 +7,9 @@ function Card() {
       <div className="ccontent">
         <div className="cbox"></div>
         <div className="imgbox">
-          <img className="img" src={rohan} alt=""></img>
+          <img className="img" src={anubh} alt=""></img>
         </div>
-        <div className="Name">Harshit</div>
+        <div className="Name">Anubhav</div>
         <ul class="social-icons">
           <li>
             <a href="#">

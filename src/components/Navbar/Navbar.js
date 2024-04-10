@@ -134,14 +134,14 @@ function Navbar() {
         <a className="home-logo-anchor" href="#home" onClick={(e) => handleScroll(e, "home")}>
           <img className="home-logo" src={logo} alt="Logo"></img>
         </a>
-        <div className="home-text"> Infosec IITG</div>  
+        <div className="home-text"> InfosecIITG</div>  
       </div>  
 
       <div className="right-items-container">
         <a href="#home" className="rightitem" onClick={(e) => handleScroll(e, "home")}>Home</a>
         <a href="#gallery" className="rightitem" onClick={(e) => handleScroll(e, "gallery")}>Gallery</a>
         <a href="#activities" className="rightitem" onClick={(e) => handleScroll(e, "activities")}>Activities</a>
-        <a href="#eab" className="rightitem" onClick={(e) => handleScroll(e, "eab")}>EAB</a>
+        <a href="#eab" className="rightitem" onClick={(e) => handleScroll(e, "eab")}>E&A</a>
         <a href="#team" className="rightitem" onClick={(e) => handleScroll(e, "team")}>Team</a>
       </div>
 

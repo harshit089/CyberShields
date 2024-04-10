@@ -25,10 +25,13 @@ function Home() {
       <div className="bline">Join InfosecIITG team , your gateway to hacking</div>
 
       <div className="Home-button">
-      <button class="github-button">GitHub 
-      {/* <img className="gitarrow" src = {arrow}></img> */}
-      </button>
-      <button class="discord-button">Discord </button>
+        <a href="https://github.com/" target="_blank">
+        <button class="github-button">GitHub </button>
+        </a>
+     
+      <a href="">
+      <button class="discord-button" target="_blank">Discord </button>
+      </a>
       </div>
 </div>
     </div>

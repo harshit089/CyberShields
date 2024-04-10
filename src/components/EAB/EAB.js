@@ -1,8 +1,8 @@
 import "./EAB.css";
 import React, { useState } from 'react';
-import eabimage1 from "./comingsoonbanner.png"
+import eabimage1 from "./osint.png"
 import eabimage2 from "./eab.png"
-import eabimage3 from "./gallery1.png"
+import eabimage3 from "./comingsoon.webp"
 import Explore_blog_button from "../blogs/BlogsWindow"
 
 function EAB() {
@@ -19,9 +19,9 @@ function EAB() {
                 <div className={`EAB-button-line${eabindex===1?"-open":""}`}>
                     <button className="EAB-button" onClick={()=>Seteabindex(1)}>Achievements</button>
                 </div>
-                <div className={`EAB-button-line${eabindex===2?"-open":""}`}>
+                {/* <div className={`EAB-button-line${eabindex===2?"-open":""}`}>
                     <button className="EAB-button" onClick={()=>Seteabindex(2)}>Blogs</button>
-                </div>
+                </div> */}
 
             </div>
         {/* </div> */}

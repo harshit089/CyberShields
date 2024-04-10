@@ -9,7 +9,7 @@ function Card() {
         <div className="imgbox">
           <img className="img" src={rohan} alt=""></img>
         </div>
-        <div className="Name">Harshit</div>
+        <div className="Name">Rohan</div>
         <ul class="social-icons">
           <li>
             <a href="#">
@@ -17,7 +17,7 @@ function Card() {
             </a>
           </li>
           <li>
-            <a href="#">
+          <a href="https://www.linkedin.com/in/harshit002/" target="_blank">
               <i class="fa fa-linkedin"></i>
             </a>
           </li>

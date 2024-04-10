@@ -15,15 +15,15 @@ function Team() {
         <div className="Heads-title">Heads</div>
         <div className="Head-card-align">
             <div className="Head-card">
-                <Headcard1/>
                 <Headcard2/>
                 <Headcard3/>
+                <Headcard1/>
             </div>
         </div>
         <div className="CoreTeam-title">CoreTeam</div>
         <div className="Core-Team">
               <CTcard1/>
-              <CTcard2/>
+      
               <CTcard3/>
               <CTcard4/>
         </div>

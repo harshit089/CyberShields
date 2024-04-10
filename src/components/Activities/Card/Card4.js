@@ -1,5 +1,5 @@
 import "./Card.css";
-import comingsoon from "./comingsoon.webp";
+import comingsoon from "./metasploit-unleashed-exploit-development.png";
 
 function Card() {
     return (

@@ -1,10 +1,10 @@
 import "./Card.css";
-import pt from "./pt.jpeg";
+import ad from "./ad.png";
 
 function Card() {
     return (
       <div className="Activitiescardcss">
-        <img className="ActImage" src={pt} alt={""}></img>
+        <img className="ActImage" src={ad} alt={""}></img>
       </div>
     );
   }
